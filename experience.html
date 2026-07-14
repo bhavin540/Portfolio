@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<title>Experience — Bhavin Khandelwal</title>
+<meta name="description" content="Retail Sales Analyst at Ganga Sales Agency — state- and city-level sales analysis across a four-state wholesale distribution territory in India.">
+</head>
+<body>
+<nav>
+  <div class="wrap">
+    <a class="logo" href="index.html">BK<span style="color:var(--teal)">.</span></a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="experience.html" class="active">Experience</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="wrap page-head">
+  <div class="eyebrow">Experience</div>
+  <h1>Eleven months, four states, <span class="accent">one honest number</span>.</h1>
+  <p class="lede">Before the M.S., I ran sales analysis for a wholesale distributor whose books lived in four different spreadsheets. This is what I did about it.</p>
+</div>
+
+<section style="padding-top:24px;">
+  <div class="wrap">
+
+    <!-- ROLE CARD -->
+    <div class="proj xp">
+      <div>
+        <div class="domain d-retail">Retail / distribution · Jan 2023 – Dec 2023</div>
+        <h3>Retail Sales Analyst</h3>
+        <div class="co">Ganga Sales Agency &middot; wholesale tobacco distribution &middot; Ahmedabad, India</div>
+        <p>The agency moved product through hundreds of retail outlets across four states. Sales were "tracked" in a stack of depot spreadsheets that nobody trusted and nobody could compare. I rebuilt the reporting from the raw exports up, then cut it by the only dimensions that mattered to the business: <b>state, city, outlet, SKU</b>.</p>
+        <div class="stack">
+          <span class="tag">SQL</span><span class="tag">Excel</span><span class="tag">Power BI</span><span class="tag">DAX</span><span class="tag">Python</span><span class="tag">pandas</span>
+        </div>
+      </div>
+      <div class="stat">
+        <div><div class="n">4</div><div class="l">states in territory</div></div>
+        <div><div class="n">40+</div><div class="l">cities tracked</div></div>
+        <div><div class="n">12 mo</div><div class="l">of sales history modeled</div></div>
+      </div>
+    </div>
+
+    <!-- SIGNATURE VIZ -->
+    <h2 style="margin-top:44px;">Where the revenue actually lived</h2>
+    <p class="sec-sub">Two cuts of the same territory. The first killed the guesswork about <em>when</em>; the second killed the guesswork about <em>where</em>.</p>
+
+    <div class="xp-viz">
+
+      <!-- state x quarter heat map -->
+      <div class="heat">
+        <div class="cap">revenue_index BY state × quarter — 2023 territory, 100 = territory average</div>
+        <table aria-label="Heat map of revenue index by state and quarter">
+          <tr><th></th><th>Q1</th><th>Q2</th><th>Q3</th><th>Q4</th></tr>
+          <!-- PLACEHOLDER DATA — swap in your real figures before publishing -->
+          <tr><td class="rowlab">Maharashtra</td>
+            <td><span class="r3">121</span></td><td><span class="r3">118</span></td><td><span class="r1">94</span></td><td><span class="r4">141</span></td></tr>
+          <tr><td class="rowlab">Gujarat</td>
+            <td><span class="r2">112</span></td><td><span class="r2">108</span></td><td><span class="r1">86</span></td><td><span class="r4">134</span></td></tr>
+          <tr><td class="rowlab">Rajasthan</td>
+            <td><span class="r1">88</span></td><td><span class="r1">92</span></td><td><span class="r0">71</span></td><td><span class="r2">104</span></td></tr>
+          <tr><td class="rowlab">Madhya Pradesh</td>
+            <td><span class="r1">79</span></td><td><span class="r1">84</span></td><td><span class="r0">63</span></td><td><span class="r2">97</span></td></tr>
+        </table>
+        <div class="note">Every state dips in Q3 and spikes in Q4 — the seasonality that reset our replenishment calendar.</div>
+      </div>
+
+      <!-- city leaderboard -->
+      <div class="cities">
+        <div class="cap">revenue_share BY city — top 8 of 40+</div>
+        <!-- PLACEHOLDER DATA — swap in your real figures before publishing -->
+        <div class="city"><div class="nm">Mumbai <span class="st">MH</span></div><div class="track"><div class="bar" style="width:100%"></div></div><div class="v">18.4%</div></div>
+        <div class="city"><div class="nm">Ahmedabad <span class="st">GJ</span></div><div class="track"><div class="bar" style="width:82%"></div></div><div class="v">15.1%</div></div>
+        <div class="city"><div class="nm">Pune <span class="st">MH</span></div><div class="track"><div class="bar" style="width:64%"></div></div><div class="v">11.7%</div></div>
+        <div class="city"><div class="nm">Surat <span class="st">GJ</span></div><div class="track"><div class="bar" style="width:52%"></div></div><div class="v">9.6%</div></div>
+        <div class="city"><div class="nm">Jaipur <span class="st">RJ</span></div><div class="track"><div class="bar" style="width:48%"></div></div><div class="v">8.9%</div></div>
+        <div class="city"><div class="nm">Indore <span class="st">MP</span></div><div class="track"><div class="bar" style="width:39%"></div></div><div class="v">7.2%</div></div>
+        <div class="city"><div class="nm">Nashik <span class="st">MH</span></div><div class="track"><div class="bar" style="width:35%"></div></div><div class="v">6.4%</div></div>
+        <div class="city"><div class="nm">Vadodara <span class="st">GJ</span></div><div class="track"><div class="bar" style="width:32%"></div></div><div class="v">5.8%</div></div>
+        <div class="note">Eight cities carried ~83% of revenue. The other 30+ were being serviced on the same replenishment schedule.</div>
+      </div>
+
+    </div>
+
+    <!-- STAR GRID -->
+    <h2 style="margin-top:44px;">How the work went</h2>
+    <p class="sec-sub">Three problems, in the order I hit them.</p>
+
+    <div class="star">
+      <div class="star-head">
+        <div>Situation</div><div>What I did</div><div>Result</div>
+      </div>
+
+      <div class="star-row">
+        <div class="cell">
+          <h4>Four states, four sets of books</h4>
+          <p>Sales, dispatch, and stock arrived as separate Excel and POS exports from every depot. No two files agreed on SKU codes or outlet names, so no two reports agreed either.</p>
+        </div>
+        <div class="cell">
+          <h4>Built one reporting base</h4>
+          <p>A SQL and Excel consolidation workflow with validation checks, keyed to a clean state → city → outlet → SKU hierarchy that every downstream report could sit on.</p>
+        </div>
+        <div class="cell out">
+          <div class="big">~ 75%</div>
+          <p>less manual prep each cycle, and reconciliation gaps closed for good.</p>
+        </div>
+      </div>
+
+      <div class="star-row">
+        <div class="cell">
+          <h4>Weak territories hid until month-end</h4>
+          <p>Leadership reviewed static spreadsheets. A city that started slipping in week one surfaced four weeks later — after the month was already lost.</p>
+        </div>
+        <div class="cell">
+          <h4>Shipped Power BI dashboards</h4>
+          <p>DAX measures tracking revenue and SKU velocity by state, city, and outlet, refreshed on a weekly cadence instead of rebuilt by hand every month.</p>
+        </div>
+        <div class="cell out">
+          <div class="big">Weekly</div>
+          <p>reviews replaced month-end post-mortems. Slippage got caught inside the week.</p>
+        </div>
+      </div>
+
+      <div class="star-row">
+        <div class="cell">
+          <h4>Stock was ordered on instinct</h4>
+          <p>Fast movers ran out mid-month in the big cities while dead stock tied up working capital in the small ones. Nobody had looked at demand by city.</p>
+        </div>
+        <div class="cell">
+          <h4>Modeled 12 months of demand</h4>
+          <p>City-level seasonality analysis in Python, then ranked every SKU by velocity to produce a reorder-priority list the purchase team could actually use.</p>
+        </div>
+        <div class="cell out">
+          <div class="big"> 40+ SKUs</div>
+          <p>flagged for clearance, and stockouts on fast movers cut across the territory.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="xp-close">
+      <p>The through-line to everything on my <a href="projects.html">projects page</a>: get the data into one trustworthy shape, find the thing the business can act on, then put it somewhere people will actually look.</p>
+      <a class="btn btn-primary" href="contact.html">Get in touch</a>
+    </div>
+
+  </div>
+</section>
+
+<footer>Bhavin Khandelwal · Jersey City, NJ · Built with plain HTML/CSS, hosted on GitHub Pages</footer>
+</body>
+</html>

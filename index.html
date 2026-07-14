@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<title>Bhavin Khandelwal — Data Analyst</title>
+<meta name="description" content="Data Analyst portfolio — SQL, Python, Power BI. Credit risk, healthcare, and retail analytics projects.">
+</head>
+<body>
+<nav>
+  <div class="wrap">
+    <a class="logo" href="index.html">BK<span style="color:var(--teal)">.</span></a>
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<header>
+  <div class="wrap hero">
+    <div>
+      <div class="eyebrow">Data analyst · Jersey City, NJ</div>
+      <h1>Bhavin Khandelwal turns messy data into <span class="accent">decisions</span>.</h1>
+      <p class="lede">M.S. in Computer Science with hands-on projects across finance, healthcare, and retail — cleaning large datasets with SQL and Python, modeling risk with scikit-learn, and shipping dashboards stakeholders actually use.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="projects.html">View projects</a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/in/bhavin-khandelwal-49b412232">LinkedIn</a>
+        <a class="btn btn-ghost" href="https://github.com/bhavin540">GitHub</a>
+      </div>
+    </div>
+    <div class="heat">
+      <div class="cap">default_rate BY income_band × credit_band — from my credit risk project</div>
+      <table aria-label="Heat map of loan default rates by income and credit band">
+        <tr><th></th><th>Sub</th><th>Near</th><th>Prime</th><th>Super</th></tr>
+        <tr><td class="rowlab">&lt;40K</td><td><span style="background:var(--heat4);color:#fdf1ec">44%</span></td><td><span style="background:var(--heat3);color:#fdf1ec">31%</span></td><td><span style="background:var(--heat2);color:#4a1b0c">19%</span></td><td><span style="background:var(--heat1);color:#4a1b0c">12%</span></td></tr>
+        <tr><td class="rowlab">40–75K</td><td><span style="background:var(--heat3);color:#fdf1ec">33%</span></td><td><span style="background:var(--heat2);color:#4a1b0c">20%</span></td><td><span style="background:var(--heat1);color:#4a1b0c">12%</span></td><td><span style="background:var(--heat0);color:#a63a17">6%</span></td></tr>
+        <tr><td class="rowlab">75–120K</td><td><span style="background:var(--heat2);color:#4a1b0c">23%</span></td><td><span style="background:var(--heat1);color:#4a1b0c">14%</span></td><td><span style="background:var(--heat0);color:#a63a17">8%</span></td><td><span style="background:var(--heat0);color:#a63a17">5%</span></td></tr>
+        <tr><td class="rowlab">120K+</td><td><span style="background:var(--heat2);color:#4a1b0c">20%</span></td><td><span style="background:var(--heat1);color:#4a1b0c">11%</span></td><td><span style="background:var(--heat0);color:#a63a17">7%</span></td><td><span style="background:var(--heat0);color:#a63a17">2%</span></td></tr>
+      </table>
+      <div class="note">Real output from 50K loan records — the kind of analysis I do.</div>
+    </div>
+  </div>
+</header>
+<div class="hr"></div>
+<div class="wrap kpis">
+  <div class="kpi"><div class="n">195K+</div><div class="l">records analyzed across projects</div></div>
+  <div class="kpi"><div class="n">84.6%</div><div class="l">best model accuracy (Random Forest)</div></div>
+  <div class="kpi"><div class="n">$1.7M</div><div class="l">at-risk revenue identified via RFM</div></div>
+  <div class="kpi"><div class="n">3</div><div class="l">domains: finance, healthcare, retail</div></div>
+</div>
+<div class="hr"></div>
+<section>
+  <div class="wrap">
+    <h2>Where I've worked</h2>
+    <p class="sec-sub">Before the M.S. — eleven months of live sales analytics for a wholesale distributor.</p>
+    <a class="proj" href="experience.html">
+      <div>
+        <div class="domain d-retail">Retail / distribution · Jan – Dec 2023</div>
+        <h3>Retail Sales Analyst — Ganga Sales Agency</h3>
+        <p>State- and city-level sales analysis across a four-state wholesale tobacco territory in India. Rebuilt reporting from raw depot exports, shipped Power BI dashboards cut by state, city, and SKU, and modeled twelve months of demand to fix replenishment.</p>
+        <span class="go">Read the case study →</span>
+      </div>
+      <div class="stat">
+        <div><div class="n">4</div><div class="l">states in territory</div></div>
+        <div><div class="n">40+</div><div class="l">cities tracked</div></div>
+        <div><div class="n">11 mo</div><div class="l">in role</div></div>
+      </div>
+    </a>
+  </div>
+</section>
+<div class="hr"></div>
+<section>
+  <div class="wrap">
+    <h2>Featured work</h2>
+    <p class="sec-sub">Three end-to-end analytics projects. Full write-ups on the projects page.</p>
+    <div class="preview-grid">
+      <a class="preview" href="projects.html#credit">
+        <div class="domain d-fin mono" style="font-size:11.5px;text-transform:uppercase;letter-spacing:.07em;">Finance</div>
+        <h3>Credit risk &amp; loan defaults</h3>
+        <p>50K loans, two ML models, and a Power BI risk dashboard. 84.6% accuracy.</p>
+        <span class="go">Read case study →</span>
+      </a>
+      <a class="preview" href="projects.html#hospital">
+        <div class="domain d-health mono" style="font-size:11.5px;text-transform:uppercase;letter-spacing:.07em;">Healthcare</div>
+        <h3>Hospital readmissions</h3>
+        <p>25K patients, hypothesis testing, and a scored risk register for clinical teams.</p>
+        <span class="go">Read case study →</span>
+      </a>
+    </div>
+  </div>
+</section>
+<footer>Bhavin Khandelwal · Jersey City, NJ · Built with plain HTML/CSS, hosted on GitHub Pages</footer>
+</body>
+</html>

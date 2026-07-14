@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<title>Projects — Bhavin Khandelwal</title>
+</head>
+<body>
+<nav>
+  <div class="wrap">
+    <a class="logo" href="index.html">BK<span style="color:var(--teal)">.</span></a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="wrap page-head">
+  <div class="eyebrow">Projects</div>
+  <h1>End-to-end analytics, <span class="accent">raw data to dashboard</span>.</h1>
+  <p class="lede">Each project covers the full workflow: SQL and Python pipelines, statistical analysis or ML modeling, and an interactive dashboard. All code and data are on GitHub.</p>
+</div>
+<section>
+  <div class="wrap">
+
+    <article class="proj" id="credit">
+      <div>
+        <div class="domain d-fin">Finance / credit risk · Dec 2025</div>
+        <h3>Credit Risk Analysis &amp; Loan Default Prediction</h3>
+        <p>Cleaned and modeled 50K+ loan records to find what actually drives borrower default. Engineered features like loan-to-income ratio, benchmarked Logistic Regression against Random Forest, segmented high-risk cohorts with window-function SQL, and shipped a Power BI dashboard for lending teams — default rates by income, credit band, purpose, and employment length.</p>
+        <div class="stack">
+          <span class="tag">Python</span><span class="tag">pandas</span><span class="tag">scikit-learn</span><span class="tag">SQL</span><span class="tag">Power BI</span><span class="tag">DAX</span>
+        </div>
+        <div class="links">
+          <a href="https://github.com/bhavin540/credit-risk-loan-default">GitHub repo →</a>
+        </div>
+      </div>
+      <div class="stat">
+        <div><div class="n">84.6%</div><div class="l">model accuracy</div></div>
+        <div><div class="n">50K</div><div class="l">loan records</div></div>
+        <div><div class="n">22×</div><div class="l">risk spread across segments</div></div>
+      </div>
+    </article>
+
+    <article class="proj" id="hospital">
+      <div>
+        <div class="domain d-health">Healthcare · Jan 2025</div>
+        <h3>Hospital Readmission Analysis &amp; Prediction</h3>
+        <p>Unified 25K fragmented patient records into a 30-day readmission dataset. Ran Welch t-tests and chi-square analysis on length-of-stay and discharge patterns, built a Gradient Boosting classifier to flag high-risk patients, and designed a Tableau monitor with a scored patient risk register so clinical teams know exactly who to follow up with.</p>
+        <div class="stack">
+          <span class="tag">Python</span><span class="tag">SQL</span><span class="tag">scipy</span><span class="tag">Gradient Boosting</span><span class="tag">Tableau</span>
+        </div>
+        <div class="links">
+          <a href="https://github.com/bhavin540/hospital-readmission-prediction">GitHub repo →</a>
+        </div>
+      </div>
+      <div class="stat">
+        <div><div class="n">82%</div><div class="l">prediction accuracy</div></div>
+        <div><div class="n">25K</div><div class="l">patient encounters</div></div>
+        <div><div class="n">p&lt;1e-9</div><div class="l">LOS significance</div></div>
+      </div>
+    </article>
+
+  </div>
+</section>
+<footer>Bhavin Khandelwal · Jersey City, NJ · Built with plain HTML/CSS, hosted on GitHub Pages</footer>
+</body>
+</html>
